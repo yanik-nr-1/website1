@@ -1,0 +1,19 @@
+nav.navbar{
+    display: flex;
+    justify-self: left;
+}
+
+nav.b{
+    background-image: url(img/nav.jpg);
+    background-size: cover;     
+    color: white;
+
+}
+body{
+    background-color: black;
+}
+
+div.card{
+    margin: 60px;
+    padding: 0px 15px;
+}
