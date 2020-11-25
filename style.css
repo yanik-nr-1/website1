@@ -1,19 +1,68 @@
-nav.navbar{
-    display: flex;
-    justify-self: left;
-}
-
-nav.b{
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+header{  
     background-image: url(img/nav.jpg);
     background-size: cover;     
     color: white;
-
 }
 body{
+    display: flex;
+    flex-direction: column;
     background-color: black;
 }
 
 div.card{
     margin: 60px;
     padding: 0px 15px;
+}
+h1.Seitentitel{
+    font-family: 'Nerko One', cursive ;
+    font-size: 80px;
+}
+p.Seitentitel{
+    font-family: 'Nerko One', cursive ;
+    font-size: 30px;
+}
+div.header{
+    display: flex;
+    justify-content: space-between;
+   
+   width: 100%;
+}
+div.titel{
+    display: flex;
+    align-items: baseline;
+}
+div.nav {
+    max-width: 600px;
+}
+nav.navbar{
+    max-width: 350px;
+}
+h1.drei{
+    font-family: 'Nerko One', cursive ;
+}
+footer{
+    display: flex;
+    align-items: end;
+    background-color: rgb(70, 153, 236);
+    width: 100%;
+}
+div.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img.profil{
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+}
+div.profil{
+    display:flex;
+    width: min-content;
+
+}
+div.contact{
+    display:flex;
+    flex-direction: column;
 }
